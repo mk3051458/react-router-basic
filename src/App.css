@@ -1,22 +1,17 @@
-.App {
+.App ul{
+  list-style-type: none;
   text-align: center;
+  margin : auto;
+  padding : 0px
 }
-
-.App-logo {
-  height: 40vmin;
+.App a{
+  text-decoration: none;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.App li{
+  display: inline-block;
+  text-decoration: none;
+  margin : 10px
 }
-
-.App-link {
-  color: #09d3ac;
+.active{
+  color : #fa923f
 }
